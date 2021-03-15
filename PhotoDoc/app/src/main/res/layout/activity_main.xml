@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#e6e6e6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/actitvy_main_ll_one">
+
+        <ImageView
+            android:id="@+id/main_activity_iv_logo"
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:layout_weight="1"
+            android:src="@drawable/logo_photodoc" />
+
+        <Button
+            android:id="@+id/main_activity_btn_camera"
+            style="@android:style/Widget.Material.Light.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/comic_sans_mc"
+            android:text="@string/activity_main_btn_camera"
+            android:textAllCaps="true"
+            android:textColor="#af0000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/main_activity_btn_gallery"
+            style="@android:style/Widget.Material.Light.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="55dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/comic_sans_mc"
+            android:text="@string/activity_main_btn_gallery"
+            android:textAllCaps="true"
+            android:textColor="#af0000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</FrameLayout>

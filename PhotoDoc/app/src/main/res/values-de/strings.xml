@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PhotoDoc</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="activity_main_btn_camera">Kamera</string>
+    <string name="activity_main_btn_gallery">Galerie</string>
+
+    <string name="activity_editing_tv_undo">Rückg.</string>
+    <string name="activity_editing_tv_redo">Wiederh.</string>
+    <string name="activity_editing_tv_save">Speichern</string>
+
+    <string name="save_sucess">Bild erfolgreich gespeichert!</string>
+    <string name="save_failure">Fehler beim Speichern des Bildes!</string>
+    <string name="saving">Speichern...</string>
+
+    <string name="confirm">Bestätigen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="textdialog_text">Bitte Text einfügen</string>
+
+    <string name="savedialog_title">Ohne das Bild zu speichern verlassen?</string>
+    <string name="savedialog_positive">Speichern</string>
+    <string name="savedialog_negative">Verwerfen</string>
+
+    <string name="toolbar_crop">Zuschneiden</string>
+    <string name="toolbar_rotate">Drehen</string>
+    <string name="toolbar_hflip">H.Spiegeln</string>
+    <string name="toolbar_vflip">V.Spiegeln</string>
+    <string name="toolbar_filter">Filter</string>
+    <string name="toolbar_text">Text</string>
+    <string name="toolbar_brush">Pinsel</string>
+    <string name="toolbar_erase">Radierer</string>
+
+    <string name="filterbar_none">NONE</string>
+    <string name="filterbar_auto_fix">AUTO-FIX</string>
+    <string name="filterbar_black_white">BLACK-WHITE</string>
+    <string name="filterbar_contrast">CONTRAST</string>
+    <string name="filterbar_brightness">BRIGHTNESS</string>
+    <string name="filterbar_documentary">DOCUMENTARY</string>
+    <string name="filterbar_sepia">SEPIA</string>
+    <string name="filterbar_saturate">SATURATE</string>
+    <string name="filterbar_temperature">TEMPERATURE</string>
+    <string name="filterbar_negative">NEGATIVE</string>
+    <string name="filterbar_fish_eye">FISH-EYE</string>
+    <string name="filterbar_fill_light">FILL-LIGHT</string>
+    <string name="filterbar_vignette">VIGNETTE</string>
+</resources>
